@@ -15,7 +15,7 @@
             </div>
         </div>
         <span class="button nextItem" v-if="itemNum<itemDetail.length" @click="nextItem"></span>
-        <span class="button submit " v-else @click="submit"></span>
+        <span class="button submit" v-else @click="submit"></span>
     </div>
 </template>
 <script>
